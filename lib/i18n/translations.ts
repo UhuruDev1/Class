@@ -169,7 +169,7 @@ export const translations = {
         send: "Send Message",
         info: {
           title: "Contact Information",
-          email: "hello@aimasteryacademy.com",
+          email: "support@ofcourseai.site",
           phone: "+1 (555) 123-4567",
           address: "123 AI Street, Tech City, TC 12345",
         },
@@ -191,7 +191,7 @@ export const translations = {
         privacy: "Privacy Policy",
         terms: "Terms of Service",
         followUs: "Follow Us",
-        copyright: "© 2025 AI Mastery Academy. All rights reserved.",
+        copyright: "© 2025 OfCourse AI. All rights reserved.",
       },
     },
 
@@ -561,7 +561,7 @@ export const translations = {
         send: "Tuma Ujumbe",
         info: {
           title: "Maelezo ya Mawasiliano",
-          email: "hello@aimasteryacademy.com",
+          email: "support@ofcourseai.site",
           phone: "+1 (555) 123-4567",
           address: "123 AI Street, Tech City, TC 12345",
         },
@@ -583,7 +583,7 @@ export const translations = {
         privacy: "Sera ya Faragha",
         terms: "Masharti ya Huduma",
         followUs: "Tufuate",
-        copyright: "© 2025 AI Mastery Academy. Haki zote zimehifadhiwa.",
+        copyright: "© 2025 OfCourse AI. Haki zote zimehifadhiwa.",
       },
     },
 

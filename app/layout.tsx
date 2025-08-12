@@ -3,10 +3,12 @@ import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { LanguageProvider } from "@/lib/i18n/context"
+import { FomoProvider } from "@/lib/fomo/context"
+import { FomoNotifications } from "@/components/fomo/fomo-notifications"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AI Mastery Academy - Master AI with Expert-Led Courses",
+  title: "OfCourse AI - Master AI with Expert-Led Courses",
   description:
     "Learn AI, Machine Learning, and LLMs with comprehensive courses, live classrooms, and AI-powered support. From fundamentals to advanced production systems.",
   generator: "v0.app",
@@ -29,7 +31,12 @@ html {
         `}</style>
       </head>
       <body>
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          <FomoProvider>
+            {children}
+            <FomoNotifications />
+          </FomoProvider>
+        </LanguageProvider>
       </body>
     </html>
   )

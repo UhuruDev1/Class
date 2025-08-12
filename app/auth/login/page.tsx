@@ -1,15 +1,22 @@
-import { createClient } from "@/lib/supabase/server"
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/server"
 import { redirect } from "next/navigation"
 import LoginForm from "@/components/auth/login-form"
 
 export default async function LoginPage() {
-  const supabase = createClient()
-  const {
-    data: { session },
-  } = await supabase.auth.getSession()
+  if (isSupabaseConfigured) {
+    try {
+      const supabase = createClient()
+      const {
+        data: { session },
+      } = await supabase.auth.getSession()
 
-  if (session) {
-    redirect("/dashboard")
+      if (session) {
+        redirect("/dashboard")
+      }
+    } catch (error) {
+      // If there's an error with Supabase, continue to show login form
+      console.warn("Supabase authentication check failed:", error)
+    }
   }
 
   return (

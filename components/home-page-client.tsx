@@ -54,7 +54,7 @@ export function HomePageClient({ user }: HomePageClientProps) {
                 <Brain className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-                AI Mastery Academy
+                OfCourse AI
               </span>
             </div>
             <div className="flex items-center space-x-4">
@@ -291,7 +291,11 @@ export function HomePageClient({ user }: HomePageClientProps) {
                   projects and expert guidance helped me land my dream job at a top tech company."
                 </p>
                 <div className="flex items-center">
-                  <img src="/sarah-chen-ai-engineer-headshot.png" alt="Sarah Chen" className="w-12 h-12 rounded-full mr-4" />
+                  <img
+                    src="/sarah-chen-ai-engineer-headshot.png"
+                    alt="Sarah Chen"
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
                   <div>
                     <p className="text-white font-semibold">Sarah Chen</p>
                     <p className="text-gray-400 text-sm">AI Engineer at Google</p>
@@ -312,7 +316,11 @@ export function HomePageClient({ user }: HomePageClientProps) {
                   databases incredibly accessible. Best investment in my career!"
                 </p>
                 <div className="flex items-center">
-                  <img src="/marcus-johnson-headshot.png" alt="Marcus Johnson" className="w-12 h-12 rounded-full mr-4" />
+                  <img
+                    src="/marcus-johnson-headshot.png"
+                    alt="Marcus Johnson"
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
                   <div>
                     <p className="text-white font-semibold">Marcus Johnson</p>
                     <p className="text-gray-400 text-sm">ML Researcher at OpenAI</p>
@@ -492,7 +500,7 @@ export function HomePageClient({ user }: HomePageClientProps) {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Email Us</p>
-                    <p className="text-gray-300">hello@aimasteryacademy.com</p>
+                    <p className="text-gray-300">support@ofcourseai.site</p>
                   </div>
                 </div>
 
@@ -564,7 +572,7 @@ export function HomePageClient({ user }: HomePageClientProps) {
                   <Brain className="w-7 h-7 text-white" />
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-                  AI Mastery Academy
+                  OfCourse AI
                 </span>
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
@@ -655,7 +663,7 @@ export function HomePageClient({ user }: HomePageClientProps) {
 
           <div className="border-t border-white/10 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 mb-4 md:mb-0">© 2024 AI Mastery Academy. All rights reserved.</p>
+              <p className="text-gray-400 mb-4 md:mb-0">© 2024 OfCourse AI. All rights reserved.</p>
               <p className="text-gray-400">Built with ❤️ for the AI community</p>
             </div>
           </div>
